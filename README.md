@@ -265,7 +265,7 @@ Manifest Version 3
 
 ## Author
 
-Productivity Suite Chrome Extension
+Productivity Suite Chrome Extension.
 Koneti Sai Lakshmi Durga
 
 ---
