@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Blocker</title>
+
+<style>
+ body{
+   font-family:Arial;
+   padding:20px;
+ }
+
+ input,button{
+   margin-top:10px;
+   padding:6px;
+ }
+</style>
+
+</head>
+
+<body>
+
+<h2>Website Blocker Settings</h2>
+
+<input
+ type="text"
+ placeholder="example.com"
+ data-testid="block-hostname-input"
+/>
+
+<br>
+
+<button data-testid="add-block-btn">
+Add Website
+</button>
+
+<h3>Blocked Sites</h3>
+
+<div data-testid="blocked-sites-list"></div>
+
+<hr>
+
+<button data-testid="export-data-btn">
+Export Data
+</button>
+
+<script src="options.js"></script>
+
+</body>
+</html>

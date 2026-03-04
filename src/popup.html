@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Productivity Suite</h2>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>Productivity Suite</title>
+  <style>
+    body{
+      width:300px;
+      font-family:Arial;
+      padding:10px;
+    }
+
+    textarea{
+      width:100%;
+      height:80px;
+    }
+
+    button{
+      margin-top:5px;
+      width:100%;
+    }
+  </style>
+</head>
+
+<body>
+
+<h3>Productivity Suite</h3>
+
+<!-- Save Session -->
+<button data-testid="save-session-btn">
+Save Current Session
+</button>
+
+<!-- Sessions List -->
+<div data-testid="sessions-list">
+Saved Sessions Appear Here
+</div>
+
+<hr>
+
+<!-- Notes -->
+<textarea
+data-testid="notes-textarea"
+placeholder="Write notes...">
+</textarea>
+
+<button data-testid="save-notes-btn">
+Save Notes
+</button>
+
+<hr>
+
+<!-- Open Options -->
+<button data-testid="open-options-btn">
+Open Settings
+</button>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
